@@ -1,0 +1,2578 @@
+[
+    {
+        "shapeName": "Anhui Anqing",
+        "center": [
+            30.673330174563617,
+            116.5678057356608
+        ]
+    },
+    {
+        "shapeName": "Anhui Bengbu",
+        "center": [
+            33.1359473015873,
+            117.43341174603175
+        ]
+    },
+    {
+        "shapeName": "Anhui Bozhou",
+        "center": [
+            33.4662056,
+            116.16621279999998
+        ]
+    },
+    {
+        "shapeName": "Anhui Chaohu",
+        "center": [
+            31.533608750000006,
+            117.81348281249996
+        ]
+    },
+    {
+        "shapeName": "Anhui Chizhou",
+        "center": [
+            30.18989233038349,
+            117.33592920353982
+        ]
+    },
+    {
+        "shapeName": "Anhui Chuzhou",
+        "center": [
+            32.56722511773944,
+            118.28172668759812
+        ]
+    },
+    {
+        "shapeName": "Anhui Fuyang",
+        "center": [
+            32.90640315315317,
+            115.67267882882894
+        ]
+    },
+    {
+        "shapeName": "Anhui Hefei",
+        "center": [
+            32.04538787061996,
+            117.20997789757408
+        ]
+    },
+    {
+        "shapeName": "Anhui Huaibei",
+        "center": [
+            33.70332222222225,
+            116.73877175925927
+        ]
+    },
+    {
+        "shapeName": "Anhui Huainan",
+        "center": [
+            32.749569753086405,
+            116.7127672839506
+        ]
+    },
+    {
+        "shapeName": "Anhui Huangshan",
+        "center": [
+            29.915544811320757,
+            118.05968113207534
+        ]
+    },
+    {
+        "shapeName": "Anhui Lu'an",
+        "center": [
+            31.743320246478863,
+            116.3751830985915
+        ]
+    },
+    {
+        "shapeName": "Anhui Ma'anshan",
+        "center": [
+            31.543079591836754,
+            118.62606598639451
+        ]
+    },
+    {
+        "shapeName": "Anhui Suzhou",
+        "center": [
+            33.91745543672014,
+            117.1123295900177
+        ]
+    },
+    {
+        "shapeName": "Anhui Tongling",
+        "center": [
+            30.92644722222223,
+            117.92745277777775
+        ]
+    },
+    {
+        "shapeName": "Anhui Wuhu",
+        "center": [
+            31.01778518518515,
+            118.31141481481477
+        ]
+    },
+    {
+        "shapeName": "Anhui Xuancheng",
+        "center": [
+            30.684673161033807,
+            118.84211212723656
+        ]
+    },
+    {
+        "shapeName": "Beijing Beijing",
+        "center": [
+            40.23502617328517,
+            116.40821281588443
+        ]
+    },
+    {
+        "shapeName": "Chongqing Chongqing",
+        "center": [
+            29.88746511270486,
+            107.89176757172127
+        ]
+    },
+    {
+        "shapeName": "Fujian Fuzhou",
+        "center": [
+            25.7254051503676,
+            119.70411875794916
+        ]
+    },
+    {
+        "shapeName": "Fujian Longyan",
+        "center": [
+            25.257584320000007,
+            116.74880816000001
+        ]
+    },
+    {
+        "shapeName": "Fujian Nanping",
+        "center": [
+            27.30507801899597,
+            118.15905223880601
+        ]
+    },
+    {
+        "shapeName": "Fujian Ningde",
+        "center": [
+            26.78597121143034,
+            120.11576005496957
+        ]
+    },
+    {
+        "shapeName": "Fujian Putian",
+        "center": [
+            25.223302416850487,
+            119.38806244140174
+        ]
+    },
+    {
+        "shapeName": "Fujian Quanzhou",
+        "center": [
+            24.9215759732049,
+            118.82554898304237
+        ]
+    },
+    {
+        "shapeName": "Fujian Sanming",
+        "center": [
+            26.233420208023762,
+            117.47951530460635
+        ]
+    },
+    {
+        "shapeName": "Fujian Xiamen",
+        "center": [
+            24.556801613502742,
+            118.12942919428224
+        ]
+    },
+    {
+        "shapeName": "Fujian Zhangzhou",
+        "center": [
+            23.914998112847616,
+            117.70195739985189
+        ]
+    },
+    {
+        "shapeName": "Gansu Baiyin",
+        "center": [
+            36.48194703703704,
+            104.72770259259258
+        ]
+    },
+    {
+        "shapeName": "Gansu Dingxi",
+        "center": [
+            35.07815657894742,
+            104.51843026315804
+        ]
+    },
+    {
+        "shapeName": "Gansu GannanTibetan",
+        "center": [
+            34.16479447799833,
+            102.68971898188103
+        ]
+    },
+    {
+        "shapeName": "Gansu Jiayuguan",
+        "center": [
+            39.82541176470588,
+            98.2026411764706
+        ]
+    },
+    {
+        "shapeName": "Gansu Jinchang",
+        "center": [
+            38.36208519999998,
+            102.04785679999998
+        ]
+    },
+    {
+        "shapeName": "Gansu Jiuquan",
+        "center": [
+            39.80031422637593,
+            96.43472471443401
+        ]
+    },
+    {
+        "shapeName": "Gansu Lanzhou",
+        "center": [
+            36.66114447552447,
+            103.55742452214452
+        ]
+    },
+    {
+        "shapeName": "Gansu LinxiaHui",
+        "center": [
+            35.60197099697885,
+            103.32922839879153
+        ]
+    },
+    {
+        "shapeName": "Gansu Longnan",
+        "center": [
+            33.610908323424525,
+            105.23949310344828
+        ]
+    },
+    {
+        "shapeName": "Gansu Pingliang",
+        "center": [
+            35.32465106707319,
+            106.43454679878037
+        ]
+    },
+    {
+        "shapeName": "Gansu Qingyang",
+        "center": [
+            36.25873991291724,
+            107.37734629898405
+        ]
+    },
+    {
+        "shapeName": "Gansu Tianshui",
+        "center": [
+            34.675555215827366,
+            105.73039118705043
+        ]
+    },
+    {
+        "shapeName": "Gansu Wuwei",
+        "center": [
+            37.78906598639455,
+            102.82293265306127
+        ]
+    },
+    {
+        "shapeName": "Gansu Zhangye",
+        "center": [
+            38.75269030100337,
+            100.05610022296551
+        ]
+    },
+    {
+        "shapeName": "Guangdong Chaozhou",
+        "center": [
+            23.43177866459127,
+            117.08619465678414
+        ]
+    },
+    {
+        "shapeName": "Guangdong Dongguan",
+        "center": [
+            22.868298564593285,
+            113.8974119617225
+        ]
+    },
+    {
+        "shapeName": "Guangdong Foshan",
+        "center": [
+            23.013348265895946,
+            112.8945268786127
+        ]
+    },
+    {
+        "shapeName": "Guangdong Guangzhou",
+        "center": [
+            22.862457188805347,
+            113.60471572263994
+        ]
+    },
+    {
+        "shapeName": "Guangdong Heyuan",
+        "center": [
+            24.014868206039086,
+            114.96402539964483
+        ]
+    },
+    {
+        "shapeName": "Guangdong Huizhou",
+        "center": [
+            22.688756614329854,
+            114.70715861654372
+        ]
+    },
+    {
+        "shapeName": "Guangdong Jiangmen",
+        "center": [
+            21.687120963013626,
+            112.7267956218148
+        ]
+    },
+    {
+        "shapeName": "Guangdong Jieyang",
+        "center": [
+            23.084186871459696,
+            116.46260437472768
+        ]
+    },
+    {
+        "shapeName": "Guangdong Maoming",
+        "center": [
+            21.50093396359593,
+            111.1308194339589
+        ]
+    },
+    {
+        "shapeName": "Guangdong Meizhou",
+        "center": [
+            24.2405488495575,
+            116.02146584070788
+        ]
+    },
+    {
+        "shapeName": "Guangdong Qingyuan",
+        "center": [
+            24.33856271450855,
+            112.85803182527303
+        ]
+    },
+    {
+        "shapeName": "Guangdong Shantou",
+        "center": [
+            23.293345233918128,
+            116.70538359649123
+        ]
+    },
+    {
+        "shapeName": "Guangdong Shanwei",
+        "center": [
+            22.73661888879978,
+            115.57306228583654
+        ]
+    },
+    {
+        "shapeName": "Guangdong Shaoguan",
+        "center": [
+            24.785376607387175,
+            113.80882051983589
+        ]
+    },
+    {
+        "shapeName": "Guangdong Shenzhen",
+        "center": [
+            22.56627990849713,
+            114.49156926178372
+        ]
+    },
+    {
+        "shapeName": "Guangdong Yangjiang",
+        "center": [
+            21.66254922462912,
+            111.84548116785119
+        ]
+    },
+    {
+        "shapeName": "Guangdong Yunfu",
+        "center": [
+            22.784246341463408,
+            111.80216609756093
+        ]
+    },
+    {
+        "shapeName": "Guangdong Zhanjiang",
+        "center": [
+            20.989878792483644,
+            110.39135643756805
+        ]
+    },
+    {
+        "shapeName": "Guangdong Zhaoqing",
+        "center": [
+            23.566113152400842,
+            112.20089185803768
+        ]
+    },
+    {
+        "shapeName": "Guangdong Zhongshan",
+        "center": [
+            22.511299999999995,
+            113.42707983870969
+        ]
+    },
+    {
+        "shapeName": "Guangdong Zhuhai",
+        "center": [
+            22.062706494415124,
+            113.70442724695991
+        ]
+    },
+    {
+        "shapeName": "Guangxi Baise",
+        "center": [
+            23.744004928457873,
+            106.23059085850554
+        ]
+    },
+    {
+        "shapeName": "Guangxi Beihai",
+        "center": [
+            21.49134353415103,
+            109.34177494757095
+        ]
+    },
+    {
+        "shapeName": "Guangxi Chongzuo",
+        "center": [
+            22.381666118421034,
+            107.1345743421052
+        ]
+    },
+    {
+        "shapeName": "Guangxi Fangchenggang",
+        "center": [
+            21.648486844487575,
+            108.40232849792434
+        ]
+    },
+    {
+        "shapeName": "Guangxi Guigang",
+        "center": [
+            23.29902224622031,
+            109.98954902807773
+        ]
+    },
+    {
+        "shapeName": "Guangxi Guilin",
+        "center": [
+            25.34029139072847,
+            110.55829284768203
+        ]
+    },
+    {
+        "shapeName": "Guangxi Hechi",
+        "center": [
+            24.669179153094472,
+            107.9208931596091
+        ]
+    },
+    {
+        "shapeName": "Guangxi Hezhou",
+        "center": [
+            24.367966557911913,
+            111.29661125611749
+        ]
+    },
+    {
+        "shapeName": "Guangxi Laibin",
+        "center": [
+            23.91449898132427,
+            109.36238387096778
+        ]
+    },
+    {
+        "shapeName": "Guangxi Liuzhou",
+        "center": [
+            25.03332962962962,
+            109.32311959378745
+        ]
+    },
+    {
+        "shapeName": "Guangxi Nanning",
+        "center": [
+            23.097566397849448,
+            108.39039798387094
+        ]
+    },
+    {
+        "shapeName": "Guangxi Qinzhou",
+        "center": [
+            21.774401378109253,
+            108.65296462601394
+        ]
+    },
+    {
+        "shapeName": "Guangxi Wuzhou",
+        "center": [
+            23.616654132901118,
+            110.93679513776341
+        ]
+    },
+    {
+        "shapeName": "Guangxi Yulin",
+        "center": [
+            22.433697101449276,
+            110.20786123188407
+        ]
+    },
+    {
+        "shapeName": "Guizhou Anshun",
+        "center": [
+            25.985175862068967,
+            106.02279359605909
+        ]
+    },
+    {
+        "shapeName": "Guizhou Bijie",
+        "center": [
+            26.93770872162484,
+            104.86701116367979
+        ]
+    },
+    {
+        "shapeName": "Guizhou Guiyang",
+        "center": [
+            26.724069889502754,
+            106.7229908839779
+        ]
+    },
+    {
+        "shapeName": "Guizhou Liupanshui",
+        "center": [
+            26.459987928134552,
+            104.77379006116209
+        ]
+    },
+    {
+        "shapeName": "Guizhou QiandongnanMiaoandDong",
+        "center": [
+            26.60638472088545,
+            109.09737946514502
+        ]
+    },
+    {
+        "shapeName": "Guizhou QiannanBuyeiandMiao",
+        "center": [
+            26.127265631469978,
+            107.30650683229814
+        ]
+    },
+    {
+        "shapeName": "Guizhou QianxinanBuyeiandMiao",
+        "center": [
+            25.319272844827587,
+            105.3854905172414
+        ]
+    },
+    {
+        "shapeName": "Guizhou Tongren",
+        "center": [
+            28.01161031331591,
+            108.60729647519581
+        ]
+    },
+    {
+        "shapeName": "Guizhou Zunyi",
+        "center": [
+            28.205332463465567,
+            107.03114624217115
+        ]
+    },
+    {
+        "shapeName": "Hainan Haikou",
+        "center": [
+            19.974742080489193,
+            110.53091645406714
+        ]
+    },
+    {
+        "shapeName": "Hainan Hainan",
+        "center": [
+            19.203307647024285,
+            110.42409294802772
+        ]
+    },
+    {
+        "shapeName": "Hainan Sanya",
+        "center": [
+            18.268275330225332,
+            109.47812245532246
+        ]
+    },
+    {
+        "shapeName": "Hebei Baoding",
+        "center": [
+            39.07384783464568,
+            115.1557490157482
+        ]
+    },
+    {
+        "shapeName": "Hebei Cangzhou",
+        "center": [
+            38.28302355140186,
+            116.8285650467289
+        ]
+    },
+    {
+        "shapeName": "Hebei Chengde",
+        "center": [
+            41.362515899122805,
+            117.67390548245616
+        ]
+    },
+    {
+        "shapeName": "Hebei Handan",
+        "center": [
+            36.513373210161696,
+            114.52599076212464
+        ]
+    },
+    {
+        "shapeName": "Hebei Hengshui",
+        "center": [
+            37.74557237569062,
+            115.82562790055255
+        ]
+    },
+    {
+        "shapeName": "Hebei Langfang",
+        "center": [
+            39.4938937092971,
+            116.79499916067826
+        ]
+    },
+    {
+        "shapeName": "Hebei Qinhuangdao",
+        "center": [
+            40.00168698795178,
+            119.29998819277117
+        ]
+    },
+    {
+        "shapeName": "Hebei Shijiazhuang",
+        "center": [
+            38.109812,
+            114.42127626666661
+        ]
+    },
+    {
+        "shapeName": "Hebei Tangshan",
+        "center": [
+            39.31054656296296,
+            118.87483640740739
+        ]
+    },
+    {
+        "shapeName": "Hebei Xingtai",
+        "center": [
+            37.21496289855073,
+            114.87929884057971
+        ]
+    },
+    {
+        "shapeName": "Hebei Zhangjiakou",
+        "center": [
+            40.92909208715591,
+            115.00640676605498
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Daqing",
+        "center": [
+            46.21095581717455,
+            124.6942864265928
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Daxing'anling",
+        "center": [
+            52.10020117222717,
+            124.35048142470697
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Harbin",
+        "center": [
+            45.53019778723408,
+            127.92694893617035
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Hegang",
+        "center": [
+            47.70370037453185,
+            130.72202808988757
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Heihe",
+        "center": [
+            49.20226619937695,
+            126.8012996884734
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Jiamusi",
+        "center": [
+            47.06018458715591,
+            131.9468940366973
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Jixi",
+        "center": [
+            45.71578021248338,
+            132.3988810092961
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Mudanjiang",
+        "center": [
+            44.678788749999946,
+            129.75973862500007
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Qiqihar",
+        "center": [
+            47.63105041938483,
+            124.43822013047554
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Qitaihe",
+        "center": [
+            45.900683128834345,
+            130.88195368098152
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Shuangyashan",
+        "center": [
+            46.65889999999998,
+            132.62070365997633
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Suihua",
+        "center": [
+            46.82471144024513,
+            126.78747027579165
+        ]
+    },
+    {
+        "shapeName": "Heilongjiang Yichun",
+        "center": [
+            47.86581752265863,
+            129.22247663645504
+        ]
+    },
+    {
+        "shapeName": "Henan Anyang",
+        "center": [
+            35.8681525274725,
+            114.28539802197821
+        ]
+    },
+    {
+        "shapeName": "Henan Hebi",
+        "center": [
+            35.76106918604655,
+            114.26700988372097
+        ]
+    },
+    {
+        "shapeName": "Henan Jiaozuo",
+        "center": [
+            35.138549456521766,
+            113.09924673913049
+        ]
+    },
+    {
+        "shapeName": "Henan Jiyuanshi",
+        "center": [
+            35.11681751824817,
+            112.37519416058392
+        ]
+    },
+    {
+        "shapeName": "Henan Kaifeng",
+        "center": [
+            34.614921904761914,
+            114.58356253968257
+        ]
+    },
+    {
+        "shapeName": "Henan Luohe",
+        "center": [
+            33.65766000000002,
+            113.89670682926831
+        ]
+    },
+    {
+        "shapeName": "Henan Luoyang",
+        "center": [
+            34.342849778761085,
+            112.05595995575229
+        ]
+    },
+    {
+        "shapeName": "Henan Nanyang",
+        "center": [
+            32.96017608024689,
+            112.40212037037047
+        ]
+    },
+    {
+        "shapeName": "Henan Pingdingshan",
+        "center": [
+            33.74154328358207,
+            113.06973373134322
+        ]
+    },
+    {
+        "shapeName": "Henan Puyang",
+        "center": [
+            35.84705404530745,
+            115.37004304207122
+        ]
+    },
+    {
+        "shapeName": "Henan Sanmenxia",
+        "center": [
+            34.389723281596474,
+            111.17694301552102
+        ]
+    },
+    {
+        "shapeName": "Henan Shangqiu",
+        "center": [
+            34.24592543859646,
+            115.70631622807029
+        ]
+    },
+    {
+        "shapeName": "Henan Xinxiang",
+        "center": [
+            35.322462695924756,
+            114.14006802507832
+        ]
+    },
+    {
+        "shapeName": "Henan Xinyang",
+        "center": [
+            32.106767584097824,
+            114.79645474006094
+        ]
+    },
+    {
+        "shapeName": "Henan Xuchang",
+        "center": [
+            34.04504388489208,
+            113.71252158273377
+        ]
+    },
+    {
+        "shapeName": "Henan Zhengzhou",
+        "center": [
+            34.589980071174374,
+            113.43820747330959
+        ]
+    },
+    {
+        "shapeName": "Henan Zhoukou",
+        "center": [
+            33.73019101123592,
+            114.91507707865168
+        ]
+    },
+    {
+        "shapeName": "Henan Zhumadian",
+        "center": [
+            32.843412075471704,
+            114.20407490566042
+        ]
+    },
+    {
+        "shapeName": "HongKong CentralandWestern",
+        "center": [
+            22.280351153846155,
+            114.12908192307694
+        ]
+    },
+    {
+        "shapeName": "HongKong Eastern",
+        "center": [
+            22.271422500000007,
+            114.22231999999997
+        ]
+    },
+    {
+        "shapeName": "HongKong Islands",
+        "center": [
+            22.212878068953593,
+            114.04739377049783
+        ]
+    },
+    {
+        "shapeName": "HongKong KowloonCity",
+        "center": [
+            22.32396176470589,
+            114.19383823529411
+        ]
+    },
+    {
+        "shapeName": "HongKong KwaiTsing",
+        "center": [
+            22.34674479166667,
+            114.1142240625
+        ]
+    },
+    {
+        "shapeName": "HongKong KwunTong",
+        "center": [
+            22.310673333333337,
+            114.22835666666666
+        ]
+    },
+    {
+        "shapeName": "HongKong North",
+        "center": [
+            22.533450185057074,
+            114.28284670572467
+        ]
+    },
+    {
+        "shapeName": "HongKong SaiKung",
+        "center": [
+            22.33359636008918,
+            114.33405099551413
+        ]
+    },
+    {
+        "shapeName": "HongKong ShaTin",
+        "center": [
+            22.392911627906976,
+            114.20280232558136
+        ]
+    },
+    {
+        "shapeName": "HongKong ShamShuiPo",
+        "center": [
+            22.33375294117647,
+            114.14960882352942
+        ]
+    },
+    {
+        "shapeName": "HongKong Southern",
+        "center": [
+            22.22975838095238,
+            114.19810942857141
+        ]
+    },
+    {
+        "shapeName": "HongKong TaiPo",
+        "center": [
+            22.474295346477444,
+            114.30650645047608
+        ]
+    },
+    {
+        "shapeName": "HongKong TsuenWan",
+        "center": [
+            22.355790682234428,
+            114.07345617673992
+        ]
+    },
+    {
+        "shapeName": "HongKong TuenMun",
+        "center": [
+            22.36543087471071,
+            113.93231013307386
+        ]
+    },
+    {
+        "shapeName": "HongKong WanChai",
+        "center": [
+            22.27132608695652,
+            114.18260869565219
+        ]
+    },
+    {
+        "shapeName": "HongKong WongTaiSin",
+        "center": [
+            22.344330434782613,
+            114.19860869565218
+        ]
+    },
+    {
+        "shapeName": "HongKong YauTsimMong",
+        "center": [
+            22.30966296296296,
+            114.16734444444445
+        ]
+    },
+    {
+        "shapeName": "HongKong YuenLong",
+        "center": [
+            22.456127619047624,
+            114.04278285714284
+        ]
+    },
+    {
+        "shapeName": "Hubei EnshiTujiaandMiao",
+        "center": [
+            30.16926600234466,
+            109.52145521688152
+        ]
+    },
+    {
+        "shapeName": "Hubei Ezhou",
+        "center": [
+            30.354556249999995,
+            114.81002954545461
+        ]
+    },
+    {
+        "shapeName": "Hubei Huanggang",
+        "center": [
+            30.84494891640869,
+            115.26431068111461
+        ]
+    },
+    {
+        "shapeName": "Hubei Huangshi",
+        "center": [
+            29.895643749999998,
+            114.96640661764702
+        ]
+    },
+    {
+        "shapeName": "Hubei Jingmen",
+        "center": [
+            31.001759381898463,
+            112.58425960264897
+        ]
+    },
+    {
+        "shapeName": "Hubei Jingzhou",
+        "center": [
+            30.038576804915536,
+            112.48004362519204
+        ]
+    },
+    {
+        "shapeName": "Hubei Qianjiang",
+        "center": [
+            30.362907729468596,
+            112.77217342995172
+        ]
+    },
+    {
+        "shapeName": "Hubei Shennongjia",
+        "center": [
+            31.567889090909105,
+            110.44861772727273
+        ]
+    },
+    {
+        "shapeName": "Hubei Shiyan",
+        "center": [
+            32.47755682819384,
+            110.39685110132154
+        ]
+    },
+    {
+        "shapeName": "Hubei SuizhouShi",
+        "center": [
+            31.832053066037737,
+            113.49121863207553
+        ]
+    },
+    {
+        "shapeName": "Hubei Tianmen",
+        "center": [
+            30.63785982142857,
+            113.06838660714291
+        ]
+    },
+    {
+        "shapeName": "Hubei Wuhan",
+        "center": [
+            30.685910401891224,
+            114.37737494089826
+        ]
+    },
+    {
+        "shapeName": "Hubei Xiangfan",
+        "center": [
+            31.90832576791809,
+            111.935990102389
+        ]
+    },
+    {
+        "shapeName": "Hubei Xianning",
+        "center": [
+            29.606588340807175,
+            114.19198206278031
+        ]
+    },
+    {
+        "shapeName": "Hubei Xiantao",
+        "center": [
+            30.32473827751197,
+            113.3521641148326
+        ]
+    },
+    {
+        "shapeName": "Hubei Xiaogan",
+        "center": [
+            31.182766945606684,
+            113.9368539748953
+        ]
+    },
+    {
+        "shapeName": "Hubei Yichang",
+        "center": [
+            30.733955902777797,
+            111.13180364583339
+        ]
+    },
+    {
+        "shapeName": "Hunan Changde",
+        "center": [
+            29.266842768273758,
+            111.39793203732519
+        ]
+    },
+    {
+        "shapeName": "Hunan Changsha",
+        "center": [
+            28.199439261744978,
+            113.07666073825511
+        ]
+    },
+    {
+        "shapeName": "Hunan Chenzhou",
+        "center": [
+            25.875722528735643,
+            113.08843678160903
+        ]
+    },
+    {
+        "shapeName": "Hunan Hengyang",
+        "center": [
+            26.789966713681263,
+            112.517117348378
+        ]
+    },
+    {
+        "shapeName": "Hunan Huaihua",
+        "center": [
+            27.098574911695465,
+            109.78278972723697
+        ]
+    },
+    {
+        "shapeName": "Hunan Loudi",
+        "center": [
+            27.71590797773654,
+            111.68945454545445
+        ]
+    },
+    {
+        "shapeName": "Hunan Shaoyang",
+        "center": [
+            26.818312962962985,
+            110.96008691358018
+        ]
+    },
+    {
+        "shapeName": "Hunan Xiangtan",
+        "center": [
+            27.753473000000028,
+            112.56371099999996
+        ]
+    },
+    {
+        "shapeName": "Hunan XiangxiTujiaandMiao",
+        "center": [
+            28.67742392739273,
+            109.72383135313531
+        ]
+    },
+    {
+        "shapeName": "Hunan Yiyang",
+        "center": [
+            28.557381761006262,
+            111.92107955974842
+        ]
+    },
+    {
+        "shapeName": "Hunan Yongzhou",
+        "center": [
+            25.765493196405647,
+            111.75249589216946
+        ]
+    },
+    {
+        "shapeName": "Hunan Yueyang",
+        "center": [
+            29.076504045307473,
+            113.21288948220057
+        ]
+    },
+    {
+        "shapeName": "Hunan Zhangjiajie",
+        "center": [
+            29.34631267281107,
+            110.48341497695857
+        ]
+    },
+    {
+        "shapeName": "Hunan Zhuzhou",
+        "center": [
+            27.111949146757695,
+            113.48857747440269
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Changzhou",
+        "center": [
+            31.609509677419375,
+            119.66210161290319
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Huai'an",
+        "center": [
+            33.3409379310345,
+            118.98426995073902
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Lianyungang",
+        "center": [
+            34.78825218835546,
+            119.29032622670375
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Nanjing",
+        "center": [
+            31.972802231237324,
+            118.8371006085192
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Nantong",
+        "center": [
+            32.180455668016165,
+            121.14407631578935
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Suqian",
+        "center": [
+            33.84480692520775,
+            118.48551578947365
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Suzhou",
+        "center": [
+            31.4121908108108,
+            120.77696324324324
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Taizhou",
+        "center": [
+            32.65022970027245,
+            120.05401580381479
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Wuxi",
+        "center": [
+            31.56941530944627,
+            120.07725048859938
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Xuzhou",
+        "center": [
+            34.34241930434785,
+            117.54595860869556
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Yancheng",
+        "center": [
+            33.339286397113916,
+            120.62820743861178
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Yangzhou",
+        "center": [
+            32.74042754820937,
+            119.49636446280985
+        ]
+    },
+    {
+        "shapeName": "Jiangsu Zhenjiang",
+        "center": [
+            31.979533211678802,
+            119.40335145985404
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Fuzhou",
+        "center": [
+            27.554753310104534,
+            116.48290993031364
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Ganzhou",
+        "center": [
+            25.623766992399517,
+            115.27882953311614
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Ji'an",
+        "center": [
+            26.90729999999998,
+            114.81156211604099
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Jingdezhen",
+        "center": [
+            29.322081284916194,
+            117.2927865921787
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Jiujiang",
+        "center": [
+            29.33254238618527,
+            115.38833249607534
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Nanchang",
+        "center": [
+            28.632510510510517,
+            115.96828648648645
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Pingxiang",
+        "center": [
+            27.50826520000001,
+            113.88882120000007
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Shangrao",
+        "center": [
+            28.846719580419556,
+            117.3731744755246
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Xinyu",
+        "center": [
+            27.859120942408385,
+            114.86236910994766
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Yichun",
+        "center": [
+            28.267305654761905,
+            114.98317038690476
+        ]
+    },
+    {
+        "shapeName": "Jiangxi Yingtan",
+        "center": [
+            28.22380823045266,
+            117.08202674897117
+        ]
+    },
+    {
+        "shapeName": "Jilin Baicheng",
+        "center": [
+            45.50348118811882,
+            123.00174026402645
+        ]
+    },
+    {
+        "shapeName": "Jilin Baishan",
+        "center": [
+            41.94297339593115,
+            127.30535805946789
+        ]
+    },
+    {
+        "shapeName": "Jilin Changchun",
+        "center": [
+            44.336654155124684,
+            125.879398199446
+        ]
+    },
+    {
+        "shapeName": "Jilin Jilin",
+        "center": [
+            43.60738960843377,
+            126.78757379518072
+        ]
+    },
+    {
+        "shapeName": "Jilin Liaoyuan",
+        "center": [
+            42.79157730769235,
+            125.27737769230768
+        ]
+    },
+    {
+        "shapeName": "Jilin Siping",
+        "center": [
+            43.47428599221783,
+            124.57522762645925
+        ]
+    },
+    {
+        "shapeName": "Jilin Songyuan",
+        "center": [
+            44.882953590192706,
+            124.82653957968479
+        ]
+    },
+    {
+        "shapeName": "Jilin Tonghua",
+        "center": [
+            41.86220276872965,
+            125.9118607491856
+        ]
+    },
+    {
+        "shapeName": "Jilin YanbianKorean",
+        "center": [
+            43.14133414396892,
+            129.29323268482483
+        ]
+    },
+    {
+        "shapeName": "Liaoning Anshan",
+        "center": [
+            40.80791050724636,
+            122.90426666666666
+        ]
+    },
+    {
+        "shapeName": "Liaoning Benxi",
+        "center": [
+            41.20905811320755,
+            124.64703811320769
+        ]
+    },
+    {
+        "shapeName": "Liaoning Chaoyang",
+        "center": [
+            41.446534459459436,
+            119.94546756756762
+        ]
+    },
+    {
+        "shapeName": "Liaoning Dalian",
+        "center": [
+            39.30478281159972,
+            122.07063927493867
+        ]
+    },
+    {
+        "shapeName": "Liaoning Dandong",
+        "center": [
+            39.870500304711065,
+            123.81374355816483
+        ]
+    },
+    {
+        "shapeName": "Liaoning Fushun",
+        "center": [
+            41.83857227926081,
+            124.63717125256673
+        ]
+    },
+    {
+        "shapeName": "Liaoning Fuxin",
+        "center": [
+            42.34208440111417,
+            121.93898690807801
+        ]
+    },
+    {
+        "shapeName": "Liaoning Huludao",
+        "center": [
+            40.46334707813595,
+            120.65634494614315
+        ]
+    },
+    {
+        "shapeName": "Liaoning Jinzhou",
+        "center": [
+            41.268998776223754,
+            121.49395472027976
+        ]
+    },
+    {
+        "shapeName": "Liaoning Liaoyang",
+        "center": [
+            41.18120331125823,
+            123.18731986754976
+        ]
+    },
+    {
+        "shapeName": "Liaoning Panjin",
+        "center": [
+            40.878362679425834,
+            121.3808296400091
+        ]
+    },
+    {
+        "shapeName": "Liaoning Shenyang",
+        "center": [
+            42.041552826855124,
+            123.16581060070675
+        ]
+    },
+    {
+        "shapeName": "Liaoning Tieling",
+        "center": [
+            41.56219269707891,
+            123.28516914343749
+        ]
+    },
+    {
+        "shapeName": "Macau Ilhas",
+        "center": [
+            22.152145343137256,
+            113.57579044117651
+        ]
+    },
+    {
+        "shapeName": "Macau Macau",
+        "center": [
+            22.198512365591398,
+            113.55701146953407
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Alxa",
+        "center": [
+            39.64365689851769,
+            103.34070057012538
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Baotou",
+        "center": [
+            41.2958849025974,
+            110.20828620129868
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Baynnur",
+        "center": [
+            41.08952545454548,
+            108.28940066115696
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Chifeng",
+        "center": [
+            42.92826243005597,
+            118.98056818545157
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Hohhot",
+        "center": [
+            40.62501827956987,
+            111.2432539426524
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Hulunbuir",
+        "center": [
+            50.21732975837216,
+            122.07594654514612
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Ordos",
+        "center": [
+            39.47364568807341,
+            108.98337183486238
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Tongliao",
+        "center": [
+            43.840521773399054,
+            121.51524433497543
+        ]
+    },
+    {
+        "shapeName": "NeiMongol UlaanChab",
+        "center": [
+            41.62278678611422,
+            112.87913124300107
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Wuhai",
+        "center": [
+            39.567372,
+            106.82905700000003
+        ]
+    },
+    {
+        "shapeName": "NeiMongol XilinGol",
+        "center": [
+            44.32599075305294,
+            114.91056749660801
+        ]
+    },
+    {
+        "shapeName": "NeiMongol Xing'an",
+        "center": [
+            46.25630272887316,
+            121.62432667253513
+        ]
+    },
+    {
+        "shapeName": "NingxiaHui Guyuan",
+        "center": [
+            35.9162042253521,
+            106.20210334507041
+        ]
+    },
+    {
+        "shapeName": "NingxiaHui Shizuishan",
+        "center": [
+            38.91505450643779,
+            106.514235193133
+        ]
+    },
+    {
+        "shapeName": "NingxiaHui Wuzhong",
+        "center": [
+            37.43090042796004,
+            106.4324507845935
+        ]
+    },
+    {
+        "shapeName": "NingxiaHui Yinchuan",
+        "center": [
+            38.196540064102564,
+            106.33015384615388
+        ]
+    },
+    {
+        "shapeName": "NingxiaHui Zhongwei",
+        "center": [
+            36.99627465346531,
+            105.44607722772284
+        ]
+    },
+    {
+        "shapeName": "Qinghai GologTibetan",
+        "center": [
+            33.97359401041666,
+            99.5384108506943
+        ]
+    },
+    {
+        "shapeName": "Qinghai Gy\u00eaguTibetan",
+        "center": [
+            33.837813176007955,
+            94.04610884955753
+        ]
+    },
+    {
+        "shapeName": "Qinghai HaibeiTibetan",
+        "center": [
+            37.805318409586064,
+            100.32128877995656
+        ]
+    },
+    {
+        "shapeName": "Qinghai Haidong",
+        "center": [
+            36.26981699507388,
+            102.34641009852204
+        ]
+    },
+    {
+        "shapeName": "Qinghai HainanTibetan",
+        "center": [
+            35.803044992526175,
+            100.415180568012
+        ]
+    },
+    {
+        "shapeName": "Qinghai HaixiMongolandTibetan",
+        "center": [
+            37.32411241758237,
+            95.27072076923085
+        ]
+    },
+    {
+        "shapeName": "Qinghai HuangnanTibetan",
+        "center": [
+            35.07385119236886,
+            101.65337694753566
+        ]
+    },
+    {
+        "shapeName": "Qinghai Xining",
+        "center": [
+            36.878004152249126,
+            101.39815363321799
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Ankang",
+        "center": [
+            32.81425984615385,
+            108.9577743076923
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Baoji",
+        "center": [
+            34.334452530541014,
+            107.13517225130894
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Hanzhong",
+        "center": [
+            33.073724598930475,
+            106.95066189839588
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Shangluo",
+        "center": [
+            33.68351074523397,
+            109.88168786828426
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Tongchuan",
+        "center": [
+            35.24350102564103,
+            109.171837948718
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Weinan",
+        "center": [
+            34.923790804597694,
+            109.81620942528733
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Xi'an",
+        "center": [
+            34.12313245382589,
+            108.78639419525067
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Xianyang",
+        "center": [
+            34.88966317135549,
+            108.47418874680312
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Yan'an",
+        "center": [
+            36.60732249718789,
+            109.1125146231721
+        ]
+    },
+    {
+        "shapeName": "Shaanxi Yulin",
+        "center": [
+            37.848275993237564,
+            109.32724497041416
+        ]
+    },
+    {
+        "shapeName": "Shandong Binzhou",
+        "center": [
+            37.94691472222222,
+            117.86645694444448
+        ]
+    },
+    {
+        "shapeName": "Shandong Dezhou",
+        "center": [
+            37.24149760348581,
+            116.68769172113294
+        ]
+    },
+    {
+        "shapeName": "Shandong Dongying",
+        "center": [
+            37.68415221579963,
+            118.70160346820808
+        ]
+    },
+    {
+        "shapeName": "Shandong Heze",
+        "center": [
+            35.13017622950823,
+            115.68538961748641
+        ]
+    },
+    {
+        "shapeName": "Shandong Jinan",
+        "center": [
+            36.71733822115386,
+            116.97665865384612
+        ]
+    },
+    {
+        "shapeName": "Shandong Jining",
+        "center": [
+            35.329012824675395,
+            116.78543116883131
+        ]
+    },
+    {
+        "shapeName": "Shandong Laiwu",
+        "center": [
+            36.289729411764704,
+            117.63713014705888
+        ]
+    },
+    {
+        "shapeName": "Shandong Liaocheng",
+        "center": [
+            36.446542662116045,
+            115.86222969283281
+        ]
+    },
+    {
+        "shapeName": "Shandong Linyi",
+        "center": [
+            35.325709400324165,
+            118.36303695299836
+        ]
+    },
+    {
+        "shapeName": "Shandong Qingdao",
+        "center": [
+            36.10519766494895,
+            120.55271931574596
+        ]
+    },
+    {
+        "shapeName": "Shandong Rizhao",
+        "center": [
+            35.17475397155785,
+            119.64792094376212
+        ]
+    },
+    {
+        "shapeName": "Shandong Tai'an",
+        "center": [
+            35.97922168141594,
+            116.98364756637176
+        ]
+    },
+    {
+        "shapeName": "Shandong Weifang",
+        "center": [
+            37.000368584229385,
+            119.43345909199523
+        ]
+    },
+    {
+        "shapeName": "Shandong Weihai",
+        "center": [
+            37.09802752013387,
+            122.02444886531752
+        ]
+    },
+    {
+        "shapeName": "Shandong Yantai",
+        "center": [
+            37.656611811501435,
+            120.9870002512465
+        ]
+    },
+    {
+        "shapeName": "Shandong Zaozhuang",
+        "center": [
+            35.05784134615384,
+            117.30226506410247
+        ]
+    },
+    {
+        "shapeName": "Shandong Zibo",
+        "center": [
+            36.52757101449273,
+            118.03408463768112
+        ]
+    },
+    {
+        "shapeName": "Shanghai Shanghai",
+        "center": [
+            30.807851156629315,
+            122.2381791206866
+        ]
+    },
+    {
+        "shapeName": "Shanxi Changzhi",
+        "center": [
+            36.49439030927835,
+            112.95479979381457
+        ]
+    },
+    {
+        "shapeName": "Shanxi Datong",
+        "center": [
+            39.93767318840579,
+            113.72426195652172
+        ]
+    },
+    {
+        "shapeName": "Shanxi Jincheng",
+        "center": [
+            35.61301208459217,
+            112.74295226586098
+        ]
+    },
+    {
+        "shapeName": "Shanxi Jinzhong",
+        "center": [
+            37.226919349593445,
+            112.77363902439022
+        ]
+    },
+    {
+        "shapeName": "Shanxi Linfen",
+        "center": [
+            36.24101143410854,
+            111.30731511627916
+        ]
+    },
+    {
+        "shapeName": "Shanxi Luliang",
+        "center": [
+            37.71183932980597,
+            111.22987865961206
+        ]
+    },
+    {
+        "shapeName": "Shanxi Shuozhou",
+        "center": [
+            39.63211967654987,
+            112.718530458221
+        ]
+    },
+    {
+        "shapeName": "Shanxi Taiyuan",
+        "center": [
+            37.973161876832854,
+            112.37246187683289
+        ]
+    },
+    {
+        "shapeName": "Shanxi Xinzhou",
+        "center": [
+            38.91233401253916,
+            112.33814357366771
+        ]
+    },
+    {
+        "shapeName": "Shanxi Yangquan",
+        "center": [
+            38.06490087336243,
+            113.50963449781662
+        ]
+    },
+    {
+        "shapeName": "Shanxi Yuncheng",
+        "center": [
+            35.265374863388,
+            111.18143551912578
+        ]
+    },
+    {
+        "shapeName": "Sichuan Bazhong",
+        "center": [
+            31.999349640287775,
+            107.03194916067152
+        ]
+    },
+    {
+        "shapeName": "Sichuan Chengdu",
+        "center": [
+            30.669190775681354,
+            103.8641352201258
+        ]
+    },
+    {
+        "shapeName": "Sichuan Dazhou",
+        "center": [
+            31.39545071999999,
+            107.69802703999991
+        ]
+    },
+    {
+        "shapeName": "Sichuan Deyang",
+        "center": [
+            31.06647205387206,
+            104.52887104377102
+        ]
+    },
+    {
+        "shapeName": "Sichuan Garz\u00eaTibetan",
+        "center": [
+            30.859095366996385,
+            99.98066855804257
+        ]
+    },
+    {
+        "shapeName": "Sichuan Guang'an",
+        "center": [
+            30.43796686567167,
+            106.66332358208962
+        ]
+    },
+    {
+        "shapeName": "Sichuan Guangyuan",
+        "center": [
+            32.23846865417375,
+            105.68168671209538
+        ]
+    },
+    {
+        "shapeName": "Sichuan Leshan",
+        "center": [
+            29.21635354969574,
+            103.55382150101413
+        ]
+    },
+    {
+        "shapeName": "Sichuan LiangshanYi",
+        "center": [
+            27.942875457317044,
+            101.94115899390239
+        ]
+    },
+    {
+        "shapeName": "Sichuan Luzhou",
+        "center": [
+            28.497521119133538,
+            105.70993014440434
+        ]
+    },
+    {
+        "shapeName": "Sichuan Meishan",
+        "center": [
+            29.825298622047256,
+            103.71171338582668
+        ]
+    },
+    {
+        "shapeName": "Sichuan Mianyang",
+        "center": [
+            31.88585466847089,
+            104.70508240866037
+        ]
+    },
+    {
+        "shapeName": "Sichuan Nanchong",
+        "center": [
+            31.19852603305785,
+            106.14451074380153
+        ]
+    },
+    {
+        "shapeName": "Sichuan Neijiang",
+        "center": [
+            29.605812925170063,
+            104.8137289115646
+        ]
+    },
+    {
+        "shapeName": "Sichuan Neijiang]]",
+        "center": [
+            29.610045368717202,
+            105.00568658496994
+        ]
+    },
+    {
+        "shapeName": "Sichuan NgawaTibetanandQiang",
+        "center": [
+            32.50025095812632,
+            102.62736579134155
+        ]
+    },
+    {
+        "shapeName": "Sichuan Panzhihua",
+        "center": [
+            26.77148118811881,
+            101.72415123762387
+        ]
+    },
+    {
+        "shapeName": "Sichuan Suining",
+        "center": [
+            30.58259503546099,
+            105.57207304964534
+        ]
+    },
+    {
+        "shapeName": "Sichuan Ya'an",
+        "center": [
+            29.834218091451305,
+            102.6780105367793
+        ]
+    },
+    {
+        "shapeName": "Sichuan Yibin",
+        "center": [
+            28.61670694444444,
+            104.45922876984127
+        ]
+    },
+    {
+        "shapeName": "Sichuan Zigong",
+        "center": [
+            29.30330841836735,
+            104.60493392857131
+        ]
+    },
+    {
+        "shapeName": "Sichuan Ziyang",
+        "center": [
+            30.170693516209507,
+            104.94134264339148
+        ]
+    },
+    {
+        "shapeName": "Tianjin Tianjin",
+        "center": [
+            39.39967081850532,
+            117.4325033807829
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Aksu",
+        "center": [
+            41.6215918958032,
+            81.01469131693196
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Altay",
+        "center": [
+            47.731014372163294,
+            88.40137881996971
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Bayin'gholinMongol",
+        "center": [
+            39.321798803046725,
+            87.85763819368891
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur B\u00f6rtalaMongol",
+        "center": [
+            44.781817400419314,
+            81.72587253668759
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur ChangjiHui",
+        "center": [
+            43.99747782738094,
+            88.3835264880952
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Hami",
+        "center": [
+            42.997383773584936,
+            93.30655433962258
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur IliKazakh",
+        "center": [
+            43.93711873662028,
+            83.57444194100293
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Karamay",
+        "center": [
+            44.87718732339091,
+            85.07513112244898
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Kashgar",
+        "center": [
+            36.88147286501377,
+            76.21834472451788
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Kashgar",
+        "center": [
+            35.924738283828404,
+            76.69776138613855
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Khotan",
+        "center": [
+            35.48852571544343,
+            78.22121785684976
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Khotan",
+        "center": [
+            35.19844156479216,
+            79.0562063569682
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur KizilsuKirghiz",
+        "center": [
+            39.685965136718714,
+            75.89024013671876
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Shihezi",
+        "center": [
+            44.30375740740741,
+            86.03734814814815
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Tacheng",
+        "center": [
+            45.223963142204,
+            84.91563575868446
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur Turfan",
+        "center": [
+            42.57306837944663,
+            89.71585415019761
+        ]
+    },
+    {
+        "shapeName": "XinjiangUygur \u00dcr\u00fcmqi",
+        "center": [
+            43.549680363636405,
+            87.8541450909091
+        ]
+    },
+    {
+        "shapeName": "Xizang Chamdo",
+        "center": [
+            30.890326371061814,
+            96.54873232205365
+        ]
+    },
+    {
+        "shapeName": "Xizang Lhasa",
+        "center": [
+            30.02377045454545,
+            91.29563848484848
+        ]
+    },
+    {
+        "shapeName": "Xizang Nagchu",
+        "center": [
+            32.521726283367606,
+            89.76269647501731
+        ]
+    },
+    {
+        "shapeName": "Xizang Ngari",
+        "center": [
+            33.85997680665009,
+            78.90355280835416
+        ]
+    },
+    {
+        "shapeName": "Xizang Ngari",
+        "center": [
+            34.43965262120615,
+            79.56274544080934
+        ]
+    },
+    {
+        "shapeName": "Xizang Ngari",
+        "center": [
+            32.843420588235304,
+            79.3347450980392
+        ]
+    },
+    {
+        "shapeName": "Xizang Nyingtri",
+        "center": [
+            29.42360929487183,
+            95.42595615384593
+        ]
+    },
+    {
+        "shapeName": "Xizang Shannan",
+        "center": [
+            28.719982893081784,
+            91.69543459119487
+        ]
+    },
+    {
+        "shapeName": "Xizang Shigatse",
+        "center": [
+            29.500217481883976,
+            85.91789915458921
+        ]
+    },
+    {
+        "shapeName": "Yunnan Baoshan",
+        "center": [
+            24.991908838821487,
+            99.01421611785106
+        ]
+    },
+    {
+        "shapeName": "Yunnan ChuxiongYi",
+        "center": [
+            25.350317076700446,
+            101.58532648335738
+        ]
+    },
+    {
+        "shapeName": "Yunnan DaliBai",
+        "center": [
+            25.69466889168763,
+            100.07844395465982
+        ]
+    },
+    {
+        "shapeName": "Yunnan DehongDaiandJingpo",
+        "center": [
+            24.565949476439805,
+            98.08667591623048
+        ]
+    },
+    {
+        "shapeName": "Yunnan D\u00eaq\u00eanTibetan",
+        "center": [
+            27.960291486486508,
+            99.4018439189189
+        ]
+    },
+    {
+        "shapeName": "Yunnan HongheHaniandYi",
+        "center": [
+            23.22807516611295,
+            103.1640504152823
+        ]
+    },
+    {
+        "shapeName": "Yunnan Kunming",
+        "center": [
+            25.314100768049148,
+            102.92218233486946
+        ]
+    },
+    {
+        "shapeName": "Yunnan Lijiang",
+        "center": [
+            26.94521666666666,
+            100.44620968660972
+        ]
+    },
+    {
+        "shapeName": "Yunnan Lincang",
+        "center": [
+            24.082570661896217,
+            99.6649864042934
+        ]
+    },
+    {
+        "shapeName": "Yunnan NujiangLisu",
+        "center": [
+            26.965406240928893,
+            98.84103875181411
+        ]
+    },
+    {
+        "shapeName": "Yunnan Pu'er",
+        "center": [
+            23.089270552763843,
+            100.86675366834162
+        ]
+    },
+    {
+        "shapeName": "Yunnan Qujing",
+        "center": [
+            25.68591143654115,
+            103.93294365411423
+        ]
+    },
+    {
+        "shapeName": "Yunnan WenshanZhuangandMiao",
+        "center": [
+            23.494455826271174,
+            104.87112277542393
+        ]
+    },
+    {
+        "shapeName": "Yunnan XishuangbannaDai",
+        "center": [
+            21.874747396768385,
+            100.99232351885095
+        ]
+    },
+    {
+        "shapeName": "Yunnan Yuxi",
+        "center": [
+            24.18120315789473,
+            102.20083037593974
+        ]
+    },
+    {
+        "shapeName": "Yunnan Zhaotong",
+        "center": [
+            27.670195103857548,
+            104.09787670623142
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Hangzhou",
+        "center": [
+            30.052771952224077,
+            120.20510361170956
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Huzhou",
+        "center": [
+            30.710478064516142,
+            119.83592419354832
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Jiaxing",
+        "center": [
+            30.500990297418628,
+            121.02238310886642
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Jinhua",
+        "center": [
+            29.119135360360364,
+            119.93516666666663
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Lishui",
+        "center": [
+            28.23326895306857,
+            119.6055781588449
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Ningbo",
+        "center": [
+            29.474509779343872,
+            121.91148678092554
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Quzhou",
+        "center": [
+            28.930763496143985,
+            118.6531987146531
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Shaoxing",
+        "center": [
+            29.664944836956543,
+            120.5924758152173
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Taizhou",
+        "center": [
+            28.521965539931685,
+            121.61863224175771
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Wenzhou",
+        "center": [
+            27.68451845394868,
+            121.00424139250791
+        ]
+    },
+    {
+        "shapeName": "Zhejiang Zhoushan",
+        "center": [
+            30.075855229216813,
+            122.24455448660426
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+__pycache__/
+benchmark/
+data/
+dataset/
+dataset_one/
+dataset_val/
+*.jpg
+*.geojson
+*.pth
+models/

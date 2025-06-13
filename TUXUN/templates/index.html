@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像地理位置分析器</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; text-align: center; }
+        form { margin-bottom: 20px; }
+        input[type="file"] { padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px; display: block; }
+        input[type="submit"] { padding: 10px 20px; background-color: #5cb85c; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        input[type="submit"]:hover { background-color: #4cae4c; }
+        input[type="submit"]:disabled { background-color: #aaa; cursor: not-allowed;}
+        .results { margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; }
+        .results h2 { color: #555; }
+        .results h3 { color: #444; margin-top: 15px; }
+        .results p { background-color: #e9e9e9; padding: 10px; border-radius: 4px; white-space: pre-wrap; word-wrap: break-word; }
+        .error { color: red; font-weight: bold; }
+        .uploaded-image { max-width: 400px; max-height: 400px; display: block; margin: 10px auto; border: 1px solid #ddd; }
+
+        .progress-bar-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            overflow: hidden; /* Ensures inner bar respects border radius */
+        }
+        .progress-bar {
+            width: 0%;
+            height: 24px;
+            background-color: #5cb85c;
+            text-align: center;
+            line-height: 24px;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: width 0.2s ease-in-out;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>上传图片进行地理位置分析</h1>
+
+        <div id="progressBarContainer" class="progress-bar-container" style="display: none;">
+            <div id="progressBar" class="progress-bar">0%</div>
+        </div>
+
+        {% if error_message %}
+            <p class="error">{{ error_message }}</p>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" id="analysisForm">
+            <input type="file" name="file" required>
+            <input type="submit" value="上传并分析">
+        </form>
+
+        {% if result %}
+            <div class="results">
+                <h2>分析结果 - {{ result.image_name }}</h2>
+
+                {% if image_filename %}
+                    <h3>上传的图片:</h3>
+                    <img src="{{ url_for('display_uploaded_file', filename=image_filename) }}" alt="Uploaded Image" class="uploaded-image">
+                {% endif %}
+
+                {% if result.error %}
+                    <p class="error"><strong>处理错误:</strong> {{ result.error }}</p>
+                {% endif %}
+                
+                <p><strong>预测纬度:</strong> {{ result.predicted_latitude if result.predicted_latitude is not none else 'N/A' }}</p>
+                <p><strong>预测经度:</strong> {{ result.predicted_longitude if result.predicted_longitude is not none else 'N/A' }}</p>
+                
+                {% if result.predicted_latitude is not none and result.predicted_longitude is not none %}
+                    <h3>预测位置地图:</h3>
+                    <div id="map"></div>
+                {% else %}
+                    <p><strong>地图:</strong> 无法在地图上显示位置 (坐标数据缺失或无效)。</p>
+                {% endif %}
+                <hr>
+                <h3>详细分析:</h3>
+                <p>{{ result.llm_full_response }}</p>
+            </div>
+        {% endif %}
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('analysisForm');
+            const progressBarContainer = document.getElementById('progressBarContainer');
+            const progressBar = document.getElementById('progressBar');
+            const submitButton = form.querySelector('input[type="submit"]');
+
+            if (form && progressBarContainer && progressBar && submitButton) {
+                form.addEventListener('submit', function() {
+                    // Check if a file is selected
+                    const fileInput = form.querySelector('input[type="file"]');
+                    if (!fileInput.files || fileInput.files.length === 0) {
+                        // Optionally, show an error message if no file is selected,
+                        // though 'required' attribute should handle this.
+                        // For robustness, you might add client-side validation here.
+                        return; 
+                    }
+
+                    progressBarContainer.style.display = 'block';
+                    progressBar.style.width = '0%';
+                    progressBar.textContent = '0%';
+                    submitButton.disabled = true;
+                    submitButton.value = '正在分析中...';
+
+                    let width = 0;
+                    // Simulate progress animation more realistically
+                    const totalAnimationTime = 3000; // ms, e.g., 3 seconds for 0 to 99%
+                    const updatesPerSecond = 20;
+                    const intervalTime = 1000 / updatesPerSecond;
+                    const increment = 99 / (totalAnimationTime / intervalTime); // Animate to 99%
+
+                    const interval = setInterval(function() {
+                        width += increment;
+                        if (width >= 99) {
+                            width = 99;
+                            progressBar.style.width = width + '%';
+                            progressBar.textContent = Math.round(width) + '%';
+                            clearInterval(interval); // Stop at 99% and wait for server
+                        } else {
+                            progressBar.style.width = width + '%';
+                            progressBar.textContent = Math.round(width) + '%';
+                        }
+                    }, intervalTime);
+                });
+            }
+
+            {% if result and result.predicted_latitude is not none and result.predicted_longitude is not none %}
+            if (document.getElementById('map')) {
+                try {
+                    var latStr = "{{ result.predicted_latitude }}";
+                    var lonStr = "{{ result.predicted_longitude }}";
+                    
+                    var lat = parseFloat(latStr);
+                    var lon = parseFloat(lonStr);
+
+                    if (isNaN(lat) || isNaN(lon)) {
+                        throw new Error("提供的坐标不是有效的数字。");
+                    }
+
+                    // Latitude must be between -90 and 90, longitude between -180 and 180
+                    if (lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+                        throw new Error("坐标值超出有效范围。");
+                    }
+
+                    var map = L.map('map').setView([lat, lon], 13); // Set initial zoom level to 13
+
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(map);
+
+                    L.marker([lat, lon]).addTo(map)
+                        .bindPopup('<b>预测位置</b><br>纬度: ' + lat.toFixed(5) + '<br>经度: ' + lon.toFixed(5))
+                        .openPopup();
+                } catch (e) {
+                    console.error("地图初始化错误:", e);
+                    var mapDiv = document.getElementById('map');
+                    if (mapDiv) {
+                         mapDiv.innerHTML = "<p style='color:red; text-align:center; padding: 20px;'>加载地图失败: " + e.message + "</p>";
+                         mapDiv.style.height = 'auto'; 
+                    }
+                }
+            }
+            {% endif %}
+        });
+    </script>
+</body>
+</html>
