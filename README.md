@@ -1,4 +1,4 @@
-# TUXUN
+# What is this?
 
 This is a China-specific geolocation system that predicts the geographic location (country, province, city) of an image. It supports fine-tuning on Qwen-VL using Supervised Fine-Tuning (SFT) techniques.
 
